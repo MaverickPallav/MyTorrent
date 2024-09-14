@@ -1,5 +1,6 @@
 use crate::chunk::Chunk;
 
+#[derive(Clone)]
 pub struct File {
     pub file_id: String,
     pub chunks: Vec<Chunk>,
